@@ -1,7 +1,11 @@
 export function Ejercicio2()
 {
+    function Alerta()
+    {
+        return alert("Has realizado click");
+    }
     return (
     <>
-        <button>Haz click aqui</button>
+        <button onClick={Alerta}>Haz click aqui</button>
     </>)
 }
