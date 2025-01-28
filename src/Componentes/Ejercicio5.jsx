@@ -1,8 +1,8 @@
 export function Ejercicio5() {
     const lista = ['dog', 'cat', 'chicken', 'cow', 'sheep', 'horse']; 
-    const ListaNombres = lista.map(nombre =>
+    const ListaNombres = lista.map((nombre, index) =>
     {
-        return <li key={nombre.id}> {nombre} </li>
+        return <li key={index}> {nombre} </li>
     })
     return (
         <>

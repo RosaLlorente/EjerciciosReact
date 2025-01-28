@@ -1,41 +1,39 @@
-export function Ejercicio6() {
+export function Ejercicio8() {
     const Lista = [
         {
+            id: 1,
             Nombre: 'dog',
             Animal: '🐶'
         },
         {
+            id: 2,
             Nombre: 'cat',
             Animal: '😽'
         },
         {
+            id: 3,
             Nombre: 'chicken',
             Animal: '🐤'
         },
         {
+            id: 4,
             Nombre: 'cow',
             Animal: '🐮'
         },
         {
+            id: 5,
             Nombre: 'sheep',
             Animal: '🐑'
         },
         {
+            id: 6,
             Nombre: 'horse',
             Animal: '🐎'
         }
     ]
-    const ListaNombres = Lista.map((item,index) =>
-    {
-        return (
-            <div key={index}>
-                {item.Animal} {item.Nombre}
-            </div>
-        );
-    })
     return (
         <>
-            {ListaNombres}
+            <h1>HI</h1>
         </>
     );
 }
